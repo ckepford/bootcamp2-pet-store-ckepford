@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css?family=Satisfy');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,700');
+
+/****************HEADER******************/
+.logo {
+  width: 90px;
+}
+
+header h1 {
+  color : #FF827B;
+  font-family: 'Satisfy';
+  margin-top: 20px;
+}
+nav li {
+  font-size: 20px;
+}
+li a {
+  color: #61AEE6;
+  font-weight: 400;
+  font-family: 'Open Sans';
+}
+a:focus, a:hover {
+  color: #FF827B;
+  text-decoration: none;
+}
+nav {
+  top: 20px;
+}
+/**************** END HEADER******************/
+
+
+
+/**************** JUMBOTRON ******************/
+.jumbotron {
+  background-image:url('../img/hero.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 450px;
+}
+.jumbotron h2 {
+  font-family: 'Open Sans';
+  font-weight: 300;
+  color: white;
+}
+/**************** END JUMBOTRON ******************/
+
+
+
+/**************** Features ******************/
+.features {
+  margin-bottom: 60px;
+}
+/**************** End Features ******************/
+
+
+
+/**************** Content ******************/
+.thumbnail {
+  background-color: #edf1f4;
+  border-radius: 5%;
+  border: 10px solid rgb(252, 252, 252);
+}
+.adopt-text {
+  font-size: 15px;
+}
+.adopt-button {
+  margin:15px auto;
+}
+/**************** End Content ******************/
+
+
+/**************** Footer ******************/
+.footer {
+  background-color: black;
+  height: 140px;
+}
+.dog-logo {
+  width: 90px;
+  margin-top: 25px;
+}
+/*.center-block {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}*/
+.footer-text {
+  color: white;
+  border-left: 1px solid grey;
+  margin-top: 25px;
+}
+.copyright {
+  color: grey;
+  background-color: black;
+  font-size: 12px;
+}
+/**************** End Footer ******************/
