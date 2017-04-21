@@ -58,6 +58,7 @@ nav {
 .thumbnail {
   background-color: #edf1f4;
   border-radius: 5%;
+  padding: 10px;
   border: 10px solid rgb(252, 252, 252);
 }
 .adopt-text {
@@ -71,7 +72,7 @@ nav {
 
 /**************** Footer ******************/
 .footer {
-  background-color: black;
+  background-color: #231f20;
   height: 140px;
 }
 .dog-logo {
@@ -84,13 +85,29 @@ nav {
   margin-right: auto;
 }*/
 .footer-text {
-  color: white;
-  border-left: 1px solid grey;
+  color: #bfc0c1;
+  border-left: 1px solid #333;
   margin-top: 25px;
 }
 .copyright {
   color: grey;
-  background-color: black;
+  background-color: #231f20;
   font-size: 12px;
 }
+.footer a {
+  color: #bfc0c1;
+}
 /**************** End Footer ******************/
+
+
+/**************** CONTACT ******************/
+
+.content {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.table {
+  margin-top: 20px;
+}
+
+/**************** END CONTACT ******************/

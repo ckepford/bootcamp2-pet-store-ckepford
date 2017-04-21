@@ -5,6 +5,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Pet Store</title>
 	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/font-awesome.min.css">
 	<link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
@@ -19,7 +20,7 @@
 				<ul class="nav nav-pills pull-right">
   				<li role="presentation" class="active"><a href="index.html">Home</a></li>
   				<li role="presentation"><a href="#">Products</a></li>
-  				<li role="presentation"><a href="#">Contact Us</a></li>
+  				<li role="presentation"><a href="contact.html">Contact Us</a></li>
 				</ul></nav>
 		</header>
 	</div>
@@ -54,27 +55,27 @@
 			</div>
 			<div class="col-sm-4 product">
 				<div class="thumbnail">
-			     <img src="img/product2.jpg" alt="dog bowl" class="img-responsive">
+			     <img src="img/product2.jpg" alt="cat toy" class="img-responsive">
 			     <div class="caption">
 	        	<h3>Cat Toy</h3>
-	        	<p>The best dog bowl for your dog.</p>
+	        	<p>The best cat toy for your cat.</p>
 	        	<button type="button" name="button" class="btn btn-info btn-xs">Purchase Now</button>
 	      		</div>
     		</div>
 			</div>
 			<div class="col-sm-4 product">
 				<div class="thumbnail">
-			     <img src="img/product3.jpg" alt="dog bowl" class="img-responsive">
+			     <img src="img/product3.jpg" alt="parrot stuff" class="img-responsive">
 			     <div class="caption">
 	        	<h3>Parrot Stuff</h3>
-	        	<p>The best dog bowl for your dog.</p>
+	        	<p>The best parrot stuff for your parrot.</p>
 	        	<button type="button" name="button" class="btn btn-info btn-xs">Purchase Now</button>
 	      		</div>
     		</div>
 			</div>
 		</div>
 	</div>
-	<div class="col-sm-5 text-center">
+	<div class="col-sm-3 col-sm-offset-2 text-center">
 		<ul class="nav nav-pills nav-stacked">
 			<h3 class="text-uppercase">Services</h3>
 			<li><button type="button" name="button" class="btn btn-default btn-xs text-uppercase adopt-button"><a href="">Adopt a Dog</a></button></li>
@@ -88,34 +89,46 @@
 			<li><button type="button" name="button" class="btn btn-default btn-xs text-uppercase adopt-button"><a href="">Adopt a Fish</a></button></li>
 			<p class="adopt-text">Lorem ipsum dolor sit amet, consectetur</br> adipisicing elit.</p>
 		</ul>
-		<ul class="nav nav-pills nav-stacked">
-			<li><button type="button" name="button" class="btn btn-default btn-xs text-uppercase adopt-button"><a href="">Adopt a Parrot</a></button></li>
-			<p class="adopt-text">Lorem ipsum dolor sit amet, consectetur</br> adipisicing elit.</p>
-		</ul>
 	</div>
 </div>
 <!--************************* End Content *************************-->
 
 
 <!--************************* Footer *************************-->
+<div class="container-fluid">
 <div class="row footer">
-	<div class="col-sm-3">
+	<div class="col-xs-6 col-sm-1 col-sm-offset-1">
 		<img src="img/petstore_logo.png" alt="dog logo" class="img-responsive dog-logo center-block">
 	</div>
-	<div class="col-sm-3 footer-text">
-		Pet Store</br>
-		Fresno CA</br>
-		info@petstore.com
+	<div class="col-xs-6 col-sm-3 col-sm-offset-1 footer-text">
+	<address>
+		<a href="">
+			Pet Store<br>
+			Fresno CA<br>
+		</a>
+		<a href="">
+			info@petstore.com
+		</a>
+	</address>
 	</div>
-	<div class="col-sm-6 footer-text">
-		Twitter</br>
-		Facebook</br>
-		Linkedin</br>
+	<div class="col-sm-2 footer-text">
+		<a href="#">
+			<i class="fa fa-twitter"></i>
+			<span class="hidden-xs">Twitter</span></a>
+			<br>
+		<a href="#">
+			<i class="fa fa-facebook"></i>
+			<span class="hidden-xs">Facebook</span></a>
+			<br>
+		<a href="#">
+			<i class="fa fa-linkedin"></i>
+			<span class="hidden-xs">Linkedin</span></a>
 	</div>
 	<div class="row">
 		<div class="text-center col-sm-12">
 		<p class="copyright">&copy; PetStore, Inc All Rights Reserved</p></div>
 	</div>
+</div>
 </div>
 
 <!--************************* End Footer *************************-->
