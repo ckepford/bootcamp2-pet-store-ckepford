@@ -79,23 +79,33 @@ nav {
   width: 90px;
   margin-top: 25px;
 }
-/*.center-block {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}*/
-.footer-text {
-  color: #bfc0c1;
+.address  {
   border-left: 1px solid #333;
-  margin-top: 25px;
+  margin-top: 20px;
+}
+.address a {
+  color: #bfc0c1;
+}
+.address a:focus, a:hover {
+  color: #FF827B;
+  text-decoration: none;
+}
+.social  {
+  border-left: 1px solid #333;
+  margin-top: 20px;
+}
+.social a {
+  color: #bfc0c1;
+}
+.social a:focus, a:hover {
+  color: #FF827B;
+  text-decoration: none;
 }
 .copyright {
   color: grey;
   background-color: #231f20;
   font-size: 12px;
-}
-.footer a {
-  color: #bfc0c1;
+  margin-top: 20px;
 }
 /**************** End Footer ******************/
 
